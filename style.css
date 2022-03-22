@@ -1,0 +1,155 @@
+* {
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background-color: #E0E8FF;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+  }
+
+#card {
+    background-color: #FFF;
+    width: 450px;
+    height: 700px;
+    border-radius: 19px;
+    position:absolute;
+    box-shadow: 0px 15px 20px #C9D3F7;
+}
+
+#text-block {
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#text-description {
+    color: #969BBB;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
+}
+
+#illustration {
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+
+h1 {
+    box-sizing: border-box;
+    font-size: 28px;
+    font-weight: 900;
+    color: #223754;
+    text-align: center;
+    margin: 0;
+    padding-top: 45px;
+}
+
+.annual-plan {
+    position: relative;
+    width: 352px;
+    height: 97px;
+    border-radius: 12px;
+    background-color: #F8F9FE;
+    margin-top: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#icon-music {
+    width: 50px;
+    height: 50px;
+    padding-left: 23px;
+    padding-right: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    letter-spacing: 1.5%;
+    font-weight: 700;
+    margin:0;
+}
+
+#left-text p{
+    color: #969BBB;
+    font-size: 16px;
+    margin:0;
+    padding-right: 85px; 
+}
+
+#left-text h2 {
+    line-height: 25px;
+}
+
+#right-text a{
+    color: #5949E8;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+#right-text a:hover {
+    color: #9891DE;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#button-payment  {
+    width: 352px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #382AE1;
+    box-shadow: 0px 16px 16px rgba(215, 211, 255, 0.8);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#button-payment:hover {
+    background-color: #766CF1;
+    transition: 0.3s;
+}
+
+#button-payment p{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+#cancel {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#cancel a {
+    text-decoration: none;
+    color: #778298;
+    transition: 0.3s;
+}
+
+#cancel a:hover {
+    text-decoration: none;
+    color: #223754;
+    transition: 0.3s;
+}
